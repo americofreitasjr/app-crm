@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25123.0
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2006
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "App", "App", "{74033BF4-FAF4-4FA6-8615-9257BB03A3F8}"
 EndProject
@@ -249,6 +249,9 @@ Global
 		{6A02ABA0-EE87-4C04-A065-BEF98D7F4E53} = {74033BF4-FAF4-4FA6-8615-9257BB03A3F8}
 		{83491F6D-BA09-477D-9DC0-3E670794579F} = {74033BF4-FAF4-4FA6-8615-9257BB03A3F8}
 		{6FDED745-BC57-4153-A591-8366001ACB63} = {D13AD9AC-245A-482B-BDD8-CB0C1E6F1ED4}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EF7969D7-DA4C-4407-B1B7-4A0476E27039}
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
 		Policies = $0

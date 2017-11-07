@@ -177,7 +177,8 @@ namespace XamarinCRM.ViewModels.Customers
                     accept: TextResources.Customers_Detail_CallDialog_Accept,
                     cancel: TextResources.Customers_Detail_CallDialog_Cancel))
             {
-                var phoneCallTask = MessagingPlugin.PhoneDialer;
+
+                var phoneCallTask = Plugin.Messaging.CrossMessaging.Current.PhoneDialer;
                 if (phoneCallTask.CanMakePhoneCall)
                     phoneCallTask.MakePhoneCall(phoneNumber.Replace("-", ""));
             }
