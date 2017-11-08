@@ -652,5 +652,37 @@ namespace XamarinCRM {
                 return ResourceManager.GetString("Products_ProductList_LoadingLabel", resourceCulture);
             }
         }
+
+        internal static string HabilitarGPS_EnderecoManualButton
+        {
+            get
+            {
+                return ResourceManager.GetString("HabilitarGPS_EnderecoManualButton", resourceCulture);
+            }
+        }
+
+        internal static string HabilitarGPS_HabilidarButton
+        {
+            get
+            {
+                return ResourceManager.GetString("HabilitarGPS_HabilidarButton", resourceCulture);
+            }
+        }
+
+        internal static string HabilitarGPS_Resumo
+        {
+            get
+            {
+                return ResourceManager.GetString("HabilitarGPS_Resumo", resourceCulture);
+            }
+        }
+
+        internal static string HabilitarGPS_Titulo
+        {
+            get
+            {
+                return ResourceManager.GetString("HabilitarGPS_Titulo", resourceCulture);
+            }
+        }
     }
 }

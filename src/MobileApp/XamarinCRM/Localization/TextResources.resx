@@ -334,5 +334,17 @@
     	<value>Loading products...</value>
 	</data>
 
+	 <data name="HabilitarGPS_EnderecoManualButton" xml:space="preserve">
+		<value>Informar Manualmente</value>
+	  </data>
+	  <data name="HabilitarGPS_HabilidarButton" xml:space="preserve">
+		<value>Habilitar</value>
+	  </data>
+	  <data name="HabilitarGPS_Resumo" xml:space="preserve">
+		<value>Por favor, habilite o GPS para encontrarmos o seu endereço</value>
+	  </data>
+	  <data name="HabilitarGPS_Titulo" xml:space="preserve">
+		<value>Habilite o GPS</value>
+	  </data>
 </root>
 

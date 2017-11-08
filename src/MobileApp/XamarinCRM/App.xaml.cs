@@ -56,7 +56,8 @@ namespace XamarinCRM
             // If the App.IsAuthenticated property is false, modally present the SplashPage.
             if (!_AuthenticationService.IsAuthenticated)
             {
-                MainPage = new SplashPage();
+                //MainPage = new SplashPage();
+                MainPage = new HabilitarGPSPage();
             }
             else
             {

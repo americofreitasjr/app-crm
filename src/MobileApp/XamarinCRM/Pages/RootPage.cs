@@ -29,7 +29,7 @@ namespace XamarinCRM.Pages
             Master = new MenuPage(this);
             BindingContext = new BaseViewModel(Navigation)
             {
-                Title = "Xamarin CRM",
+                Title = "MekoGas",
                 Icon = "slideout.png"
             };
             //setup home page
